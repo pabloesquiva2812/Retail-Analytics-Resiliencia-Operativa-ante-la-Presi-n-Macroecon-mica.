@@ -11,7 +11,7 @@ El cruce de variables demuestra una migración forzosa del consumo durante los p
 
 > **Nota visual:** La siguiente matriz aísla matemáticamente el comportamiento anticíclico del modelo C mediante un mapa de calor.
 
-<img width="391" height="116" alt="image" src="https://github.com/user-attachments/assets/624f54bc-e91a-4701-8b28-ba499e0f6e66" />
+<img width="600" height="180" alt="image" src="https://github.com/user-attachments/assets/624f54bc-e91a-4701-8b28-ba499e0f6e66" />
 
 
 ## 🛠 Arquitectura de Datos y Stack Tecnológico
@@ -27,7 +27,6 @@ El cruce de variables demuestra una migración forzosa del consumo durante los p
   * Parametrización estricta del filtrado cruzado para el aislamiento de series temporales.
 
 ## ⚙️ Estructura del Repositorio
-* `📁 data/`: Dataset original anonimizado.
-* `📁 assets/`: Recursos gráficos y capturas de los paneles de interacción.
-* `📁 docs/`: Exportación ejecutiva del cuadro de mando en formato PDF.
-* `📄 Retail_Macroeconomics_Analysis.pbix`: Archivo fuente con el modelo de datos.
+* `📁 database/`: Dataset original anonimizado.
+* `📁 Scripts/`: Código ejecutado en SQL para la creación del Datamart
+* `📁 dashboard/`: Archivo fuente del cuadro de mando y en formato PDF.
